@@ -1,0 +1,114 @@
+body{
+    background-color: aqua;
+}
+
+.navbar {
+    background-color: yellow;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    animation: slide 10s infinite ease-in-out;
+}
+
+@keyframes slide{
+    20%{
+        background-color: red;
+    }
+
+    40%{
+        background-color: white;
+    }
+    
+    60%{
+        background-color: brown;
+    }
+
+    80%{
+        background-color: pink;
+    }
+    
+    100%{
+        background-color: black;
+    }
+}
+
+.navlogo{
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+}
+
+.navlogo:hover{
+    background-color: aqua;
+    cursor: crosshair;
+}
+
+.navlink{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+
+}
+
+.main{
+    background-color: gray;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mainimg{
+    background-color: blue;
+    width: 600px;
+    height: 400px;
+}
+
+.mainimg:hover{
+    background-color: red;
+}
+
+.maincon{
+    background-color: orange;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.maincon1{
+    background-color: brown;
+    width: 150px;
+    height: 100px;
+
+}
+
+.maincon2{
+    background-color:aquamarine;
+    width: 150px;
+    height: 100px;
+
+}
+
+.maincon3{
+    background-color: pink;
+    width: 150px;
+    height: 100px;
+
+}
+
+footer{
+    background-color: red;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+
+footer h3{
+    padding-top: 12px;
+}
